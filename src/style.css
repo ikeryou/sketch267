@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #EAEA20; */
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.l-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.l-text {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  width: clac(100% - 500px);
+  padding: 10vw;
+  font-size: 28px;
+  letter-spacing: 0em;
+  line-height: 1.25;
+}
+
+.link {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  font-size: 18px;
+  color: inherit;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #000;
+  z-index: 9999;
+}
